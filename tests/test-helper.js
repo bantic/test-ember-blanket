@@ -8,8 +8,8 @@ import {
 setResolver(resolver);
 
 var server;
-var usePretender = false;
-var usePassthrough = false;
+var usePretender = true;
+var usePassthrough = true;
 QUnit.begin(function() {
   console.log('begin tests');
 
