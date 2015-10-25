@@ -9,7 +9,7 @@ setResolver(resolver);
 
 var server;
 var usePretender = true;
-var usePassthrough = true;
+var usePassthrough = false;
 QUnit.begin(function() {
   console.log('begin tests');
 
